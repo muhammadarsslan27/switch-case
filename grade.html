@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade System</title>
+</head>
+<body>
+
+<script>
+    let marks = prompt("Enter your marks");
+
+    marks = Number(marks);
+
+    switch (true) {
+        case (marks >= 90):
+            document.write("Grade: A 🥇");
+            break;
+
+        case (marks >= 80):
+            document.write("Grade: B 🥈");
+            break;
+
+        case (marks >= 70):
+            document.write("Grade: C 🥉");
+            break;
+
+        case (marks >= 60):
+            document.write("Grade: D 🙂");
+            break;
+
+        default:
+            document.write("Fail 😢");
+    }
+</script>
+
+</body>
+</html>
